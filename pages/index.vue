@@ -9,7 +9,7 @@
     <!-- product -->
     <div class="container-fluid mt-4 mb-5">
       <div class="mb-4">
-        <h5 class="text-uppercase"><i class="fa fa-shopping-bag"></i> PRODUK TERBARU</h5>
+        <h5 class="text-uppercase"><i class="fa fa-shopping-bag"></i> Produk Terbaru</h5>
         <!-- Solid divider -->
         <hr class="solid">
       </div>
