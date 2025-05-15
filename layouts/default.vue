@@ -1,11 +1,13 @@
 <template>
-  <div>
+  <div class="layout-wrapper">
     <!-- header -->
     <Header />
     <!-- end header -->
 
     <!-- content -->
-    <Nuxt />
+    <main class="content">
+      <Nuxt />
+    </main>
     <!-- end content -->
 
     <!-- footer -->
@@ -15,21 +17,25 @@
 </template>
 
 <script>
-
   import Header from '@/components/web/header.vue'
   import Footer from '@/components/web/footer.vue'
 
   export default {
-
-    //register components
     components: {
       Header,
       Footer
     }
-
   }
 </script>
 
-<style>
+<style scoped>
+.layout-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
+.content {
+  flex-grow: 1;
+}
 </style>
